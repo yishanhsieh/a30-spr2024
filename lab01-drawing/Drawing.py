@@ -12,6 +12,7 @@ def main():
     screen = t.getscreen()
     
     # r for reading, w for writing
+    # ./lab01-drawing/single-line-record.txt 
     file = open(filename, "r")  
 
     for line in file:
