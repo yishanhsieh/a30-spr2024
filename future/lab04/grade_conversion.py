@@ -21,25 +21,25 @@ def letter(grade):
         return "A+"
     elif grade >= 3.85:
         return "A"
-    elif grade > 3.5:
+    elif grade >= 3.5:
         return "A-"
-    elif grade > 3.15:
+    elif grade >= 3.15:
         return "B+"
-    elif grade > 2.85:
+    elif grade >= 2.85:
         return "B"
-    elif grade > 2.5:
+    elif grade >= 2.5:
         return "B-"
-    elif grade > 2.15:
+    elif grade >= 2.15:
         return "C+"
-    elif grade > 1.85:
+    elif grade >= 1.85:
         return "C"
-    elif grade > 1.5:
+    elif grade >= 1.5:
         return "C-"
-    elif grade > 1.15:
+    elif grade >= 1.15:
         return "D+"
-    elif grade > 0.85:
+    elif grade >= 0.85:
         return "D"
-    elif grade >= 0.7:
+    elif grade >= 0.5:
         return "D-"
     else: return "F"
 

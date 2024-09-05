@@ -51,7 +51,7 @@ def main():
             print("Unknown command found in file:",command)
 
     file.close()
-    t.ht()
+    t.ht() #hide turtle
 
     screen.exitonclick()
     print("Program Execution Completed.")
