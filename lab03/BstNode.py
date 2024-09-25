@@ -49,19 +49,3 @@ class BstNode:
         lines = [first_line, second_line] + [a + u * ' ' + b for a, b in zipped_lines]
         return lines, n + m + u, max(p, q) + 2, n + u // 2
 
-
-# First describe what gets printed by the following code
-a = BstNode(3)
-a.left = BstNode(5)
-a.left.right = BstNode(1)
-a.display()
-print("------------")
-b = BstNode(7)
-b.left = BstNode(4)
-a.right = b
-a.display()
-print("------------")
-b = BstNode(2)
-b.right = a.right
-a.right = b
-a.display()

@@ -1,2 +1,0 @@
-# Implement a Heap ADT.
-

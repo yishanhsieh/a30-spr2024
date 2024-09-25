@@ -1,11 +1,9 @@
 #homework02
 
-
 #Develop a Complex number class with + and *. Please refer to the development
 #of class Fraction from our text, by Miller and Ranum
 
 #reference:  https://runestone.academy/ns/books/published/pythonds/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html#lst-fractioncode
-
 
 class Complex:  # (a + bi)
     def __init__(self, real, imag):
@@ -25,7 +23,6 @@ class Fraction:
     def __add__(self, other):
         return Fraction(self.num * other.den + self.den * other.num, self.den * other.den)
     
-
 
 f1 = Fraction(3,4)
 f2 = Fraction(-2, 5)
